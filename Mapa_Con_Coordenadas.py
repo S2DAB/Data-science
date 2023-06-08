@@ -20,7 +20,7 @@ for row in sheet.iter_rows(min_row=2, values_only=True):
 
     # Construir la URL de la API de Google Maps
     url = 'https://maps.googleapis.com/maps/api/geocode/json'
-    params = {'address': descripcion, 'key': 'AIzaSyCwP-aKvC_-B2pw606TbUxvo8MWOFeTw3M'}
+    params = {'address': descripcion, 'key': 'TU API'}
 
     # Enviar solicitud a la API de Google Maps
     response = requests.get(url, params=params)
