@@ -32,7 +32,7 @@ if not os.path.exists(directorio_salida):
     os.makedirs(directorio_salida)
 
 # API Key de Google Maps
-api_key = "AIzaSyCwP-aKvC_-B2pw606TbUxvo8MWOFeTw3M"
+api_key = "TU API"
 # Calcular el diámetro del círculo de crecimiento
 diámetro_círculo = max(max_lat - min_lat, max_lon - min_lon) * (tasa_crecimiento / 100)
 
