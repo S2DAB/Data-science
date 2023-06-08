@@ -1,7 +1,7 @@
 import googlemaps
 
 # Inicializa el cliente de Google Maps con tu clave de API
-gmaps = googlemaps.Client(key='AIzaSyCwP-aKvC_-B2pw606TbUxvo8MWOFeTw3M')
+gmaps = googlemaps.Client(key='Tu API')
 
 # Función para buscar propiedades en venta en el estado y municipio ingresados por el usuario
 def buscar_propiedades():
