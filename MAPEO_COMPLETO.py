@@ -2,7 +2,7 @@ import tkinter as tk
 import googlemaps
 
 # Inicializa el cliente de Google Maps con tu clave de API---
-gmaps = googlemaps.Client(key='AIzaSyCwP-aKvC_-B2pw606TbUxvo8MWOFeTw3M')
+gmaps = googlemaps.Client(key='Tu API')
 
 root = tk.Tk()
 root.title("BÚSQUEDA PARA PROPIEDADES - TERRENOS/LOTES PARA LA EMPRESA M2 CAPITAL")
